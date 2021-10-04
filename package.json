@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "description": "laboratoireluxecosmetique server",
+  "description": "laborat server",
   "scripts": {
     "seed": "medusa seed -f ./data/seed.json",
     "build": "babel src -d dist --extensions \".ts,.js\"",

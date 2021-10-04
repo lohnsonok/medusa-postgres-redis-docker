@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  LuxeCosmestique Server
+  Laborat Server
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/medusajs/medusa">Medusa</a>. Follow the steps below to get ready.
