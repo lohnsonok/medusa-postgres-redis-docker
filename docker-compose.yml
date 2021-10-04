@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:14.0
+    restart: always
+    environment:
+      - POSTGRES_USER=laborat
+      - POSTGRES_PASSWORD=reluxe
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  
+  redis:
+    image: redis:6.2.5
+    restart: always
+    environment:
+      - REDIS_USER=laborat
+      - REDIS_PASSWORD=reluxe
+    volumes:
+      - postgres:/var/lib/redis/data
+    ports:
+      - "6379:6379"
+volumes:
+  postgres:
